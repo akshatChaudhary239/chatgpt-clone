@@ -1,0 +1,665 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ height: 12000px;
+  background-color: black;   
+
+}
+
+.bodyBackgroundIMG{    
+    background:url(https://images.openai.com/blob/8264d3d7-922c-4343-b43d-6665e44bcb91/paper-airplanes.jpg?trim=0,0,0,0&width=2000) ;
+    height: 100vh;
+    width: 100vw;
+    /* z-index: 2; */
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: beige;
+    /* background-color: black; */
+}
+
+ .navlinks ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    text-decoration: none;
+
+    margin: 5px;
+    margin-left: 30px;
+
+}
+.navlinks ul li{
+    color: beige;
+    list-style: none;
+    margin: 20px;
+
+}
+.navlinks ul li a{
+    text-decoration: none;
+    color: beige;
+}
+
+.trying select {
+    /* position: fixed; */
+background: transparent;
+text-decoration: underline;
+font-weight: bold;
+font-size: larger;
+border: none;
+margin-right: 20px;
+    /* background-color: black; */
+    color: beige;
+    /* background-color: none; */
+    
+}
+
+.trying select option{
+    /* appearance: none; */
+    /* background-color: black; */
+
+    
+    background: transparent;
+    margin-right: 50px;
+    /* -webkit-appearance: none; */
+        
+    /* color: red; */
+
+
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+option:hover{
+    color: red;
+text-decoration: underline;
+}
+.dont select{
+    /* appearance: none; */
+    border: none;
+    margin-right: 10px;
+    background-color: transparent;
+    font-size: larger;
+    text-decoration: underline;
+    color: beige;
+    font-weight: bold;
+}
+.dont select option{
+    color: black;
+    font-weight: bold;
+}
+
+.whynot select{
+
+    background-color: transparent;
+border: none;
+color: beige;
+    font-size: larger;
+    font-weight: bold;
+
+}
+.whynot select option{
+    color: black;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.goti {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-weight: 10px;
+
+}
+.lana select{
+    /* appearance: none; */
+    border: none;
+    color: beige;
+    background-color: transparent;
+    font-size: larger;
+    font-weight: bold;
+
+}
+.lana select option{
+    border-width: 200px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.loginsector{
+    display: flex;
+    justify-content: flex-end;
+
+    
+    
+}
+.loginsector div{
+    display: flex;
+    align-items: center;
+    justify-content: 20px;
+    margin-left: 350px;
+    height: 20px;
+    margin: 6px;
+    font-size: larger;
+   /* background-color: black; */
+    margin-left: 30px;
+    /* padding: 30px; */
+    border-radius: 2px;
+    
+}
+.loginsector div a{
+    text-decoration: none;
+    color: beige;
+}
+.trychatgpt{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid beige;
+    height: 90px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 70px;
+    
+}
+.trychatgpt a{
+    border: 20px;
+    border-radius: 20px;
+}
+.mainpart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/* background-color: aqua; */
+
+}
+.mainpart .akku{
+margin: 20px;
+/* margin-right: 0; */
+display: flex;
+flex-direction: column;
+/* background-color: crimson; */
+width: 300px;
+
+}
+
+.heading{ color: beige;
+    text-decoration: none;
+    font-size: 30px;   
+    /* margin-right: 0; */
+    margin-left: 0;
+}
+.heading a{
+    color: beige;
+}
+.center{
+    display: flex;
+    color: beige;
+    justify-content: center;
+
+    font-size: 30px;
+}
+.center a{
+    color: beige;
+}
+.side{
+    color: beige;
+font-size: 30px;
+}
+.side a{
+    color: beige;
+}
+.mainpart2{
+    display: flex;
+    justify-content: space-between;
+    color: beige;
+    font-size: 40px;
+    margin: 5px;
+}
+.viewe a{
+    text-decoration: none;
+font-size: 22px;
+color: beige;
+text-decoration: underline;
+
+}
+
+
+
+.line{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 12px;
+    width: 97.5vw;
+    margin-top: 100px;
+    height: 2px;
+    background-color: beige;
+}
+.images{
+    display: flex;
+    /* position: absolute; */
+justify-content: center;
+align-items: center;
+
+}
+
+
+.images .imgtxt
+{
+    /* background-color: RED; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    margin: 10px;
+}
+
+.images .imgtxt img
+{
+    height: 350px;
+    width: 330px;
+}
+.write2ak{
+    display: flex;
+    justify-content: flex-start;
+    width: 330px;
+    margin-top: 10px;
+    /* background-color: aqua; */
+    color: beige;
+    font-size: large;
+    font-weight: bold;
+}
+.line2{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 12px;
+    width: 97.5vw;
+    margin-top: 100px;
+    height: 2px;
+    background-color: beige;
+    
+}
+.safal{
+    display: flex;
+    justify-content: space-between;
+}
+.safu{
+    padding: 7px;
+    font-size: 50px;
+    
+    color: beige;
+    /* background-color: blue; */
+/* justify-content: space-between; */
+width: 50%;
+}
+.safi{
+    font-size: 25px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 250px; */
+    justify-content: space-between;
+    color: beige;
+}
+.another{
+    display: flex;
+    margin-top: 20px;
+}
+
+.another a{
+    color: beige;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.anotherPara{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* background-color: aqua; */    
+}
+.background{
+   /* display: flex; */
+   /* height: 775px; */
+   margin-top: 100px;
+   /* width: 20px; */
+   /* background-size: cover; */
+   /* background-color: aqua; */
+   background:url(https://images.openai.com/blob/971cb9d4-66e4-46b0-95d8-f3b57931b08e/stangel-2022-0052.jpg?trim=0,0,0,0&width=2000) ;
+   /* height: 100vh; */
+   /* width: 700px; */
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
+height: 150vh;
+z-index: -4;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+.line3{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 12px;
+    width: 97.5vw;
+    margin-top: 100px;
+    height: 2px;
+    background-color: beige;
+}
+.other{
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: beige;
+}
+.whatto{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: beige;
+    font-size: 30px;
+    font-weight: normal;
+}
+.whyyy a{
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 20px;
+    font-size: smaller;
+    text-decoration: none;
+    color: beige;
+    text-decoration: underline;
+}
+.imuge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* background-color: aqua;    */
+}
+.imuge .imgut{
+    
+    /* background-color: RED; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    margin-top: 300px;
+    margin: 20px;   
+
+
+}
+.ignu{
+    /* background-color: aqua; */
+    color: beige;
+    display: flex;
+    margin-right: 100px;
+    flex-direction: column;
+}
+.imuge .imgut img{
+
+    height: 350px;
+    width: 330px;
+}
+.line4 {
+    background-color: beige;
+    display: flex;
+    margin: 12px;
+    width: 95vw;
+    color: beige;
+    margin-top: 100px;
+    height: 1px;
+    margin-left: 20PX;
+}
+.navuu{
+    display: flex;
+    font-size: 50px;
+    justify-content: space-between;
+    color: beige;
+    margin-left: 20PX;
+
+}
+.bab{
+    font-size: 30px;
+margin-right: 90PX;
+}
+.tag a{
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    color: beige;
+    text-decoration: underline;
+    /* text-decoration: none; */
+
+}
+.somemore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.somemore .more{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+    /* height: 100px; */
+    margin-top: 300px;
+    margin: 10px;
+}
+.somemore .more img{
+    height: 350px;
+    width: 300px;
+}
+.write{
+    color: beige;
+}
+.line5{
+    background-color: beige;
+    display: flex;
+    margin: 12px;
+    width: 95vw;
+    color: beige;
+    margin-top: 100px;
+    height: 1px;
+    margin-left: 20PX;
+}
+.WROTE{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    margin-left: 20px;
+    color: bisque;
+    font-size: 45PX;
+}
+.wrte{
+    display: flex;
+    flex-direction: column;
+    margin-right: 90px;
+    font-size: 30px;
+}
+.wrtea a{
+    display: flex;
+    /* text-decoration: none; */
+    font-size: 25px;
+    margin-top: 20px;
+    color: beige;
+}
+.backg{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 775px; */
+    /* margin-top: 100px; */
+    /* width: 20px; */
+    /* background-color: aqua; */
+    background:url(https://images.openai.com/blob/47e8bf4c-ffd5-4b80-b481-568ed1329f97/stangel-2022-1598.jpg?trim=0,0,0,0&width=2000) ;
+    height: 200vh;
+    /* z-index: -2; */
+    /* margin-top: 80px; */
+    /* object-fit: cover; */
+    /* height: 150vh; */
+z-index: -4;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.line6{
+    display: flex;
+    margin: 20px;
+    width: 95vw;
+    height: 1px;
+    margin-top: 100px;
+    background-color: beige;
+}
+.should{
+    display: flex;
+    justify-content: space-between;
+}
+.lastly{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 80px;
+    color: beige;
+    font-size: 50px; 
+}
+.im img{
+    display: flex;
+    /* justify-content: space-between; */
+    /* margin-left: 200px; */
+    height: 600px;
+    margin-right: 100px;
+    /* height: 100px; */
+}
+.would{
+    display: flex;
+    flex-direction: column;
+    font-weight: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: beige;
+}
+.line7{
+    display: flex;
+    margin: 20px;
+    width: 95vw;
+    height: 1px;
+    margin-top: 200px;
+    background-color: beige;
+}
+.oddy{
+    display: flex;
+    margin-left: 30px;
+    font-size: 70px;
+    color: beige;
+}
+.roro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    /* width: 97vw; */
+    margin-left: 30px;
+    margin-right: 30px;
+    color: beige;
+    /* background-color: aqua; */
+    border: 3px solid white ;
+    height: 100px;
+
+}
+.roro span{
+     font-size: 3rem;
+}
+.lost{
+display: flex;
+justify-content: space-between;
+margin: 10px;
+margin-left: 30px;
+margin-right: 60px;
+margin-top: 200px;
+font-size: 20PX;
+    color: beige;
+}
+.won{
+    display: flex;
+    margin-left: 100px;
+    /* margin-right: 200px; */
+}
+.line9{
+    display: flex;
+    margin: 20px;
+    width: 95vw;
+    height: 1px;
+    margin-top: 200px;
+    background-color: beige;
+
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    color: bisque;
+}
+.startf{
+    display: flex;
+    margin-right: 400px;
+
+
+}
+.line10{
+    margin-top: 200px;
+    background-color: white;
+    height: 1px;
+    color: white;
+}
+.line11{
+margin-top: 40px;
+    background-color: white;
+    height: 3px;
+    color: white;
+}
+.line12{
+    margin-top: 30px;
+    background-color: white;
+    height: 1px;
+    color: white;
+}
+.line13{
+    margin-top: 30px;
+    background-color: white;
+    height: 1px;
+    color: white;
+}
+.line14{
+    margin-top: 30px;
+    background-color: white;
+    height: 1px;
+    color: white;
+}
+.line15{
+    margin-top: 30px;
+    background-color: white;
+    height: 1px;
+    color: white;
+}
+
+
+
+
+
